@@ -1,0 +1,31 @@
+ul{
+  list-style: none;
+}
+.login-box{
+  margin: 12px 0px 0px;
+  padding: 10px 30px 25px 25px;
+  background: none repeat scroll 0% 0% rgb(241, 241, 241);
+  border: 1px solid rgb(229, 229, 229);
+  width:auto;
+  position: absolute;
+  left: 33%;
+  right: 33%;
+  }
+
+  .login-box div {
+    margin: 0px 0px 1.5em;
+}
+.login-box .email-label, .login-box .passwd-label {
+    font-weight: bold;
+    margin: 0px 0px 0.5em;
+    display: block;
+    -moz-user-select: none;
+}
+.gmail-background{
+  margin: 25%;
+  background-color:
+}
+
+.banner-font{
+
+}
