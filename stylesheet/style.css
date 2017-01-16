@@ -1,0 +1,19 @@
+.header-align{
+  margin: auto;
+}
+
+.header-align ul{
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.header-align li{
+  padding: 5%;
+}
+
+.align-center{
+align-content: center;
+}
