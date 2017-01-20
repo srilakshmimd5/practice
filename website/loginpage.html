@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="../stylesheet/loginpage.css">
-  </head>
-  <body bgcolor=#ffffff>
+</head>
+
+<body bgcolor=#ffffff>
     <div class="login-box">
-      <h2>One account. All of Google.</h2>
-      <h2>Sign in</h2>
-      <form class="gmail-background" action="index.html" method="post">
-<ul style="list-style:none">
-  <li><label for="Email">Email</label></li>
-  <li><input class="quote-body" type="text" name="email" placeholder="yourname@email.com"></li>
-  <li><label for="Password">Password</label></li>
-  <li><input class="quote-body" type="password" name="password" placeholder="password"></li>
-  <li><input type="button" name="submit" value="Sign in"></li>
-  <li><a id="forgot_password" href=""</a>Can't Access your account?</li>
-</ul>
+        <h2>One account. All of Google.</h2>
+        <h2>Sign in</h2>
+        <form class="gmail-background" action="loginpage.html" method="post">
+            <ul style="list-style:none">
+                <li><label for="Email">Email</label></li>
+                <li><input class="quote-body" type="text" name="email" placeholder="yourname@gmail.com"></li>
+                <li><label for="Password">Password</label></li>
+                <li><input class="quote-body" type="password" name="password" placeholder="password"></li>
+                <li><input type="button" name="submit" value="Sign in">
+                  <input type="button" name="submit" value="Sign up"></li>
+                <li><a id="forgot_password" href="" </a>Can't Access your account?</li>
+            </ul>
+          </form>
     </div>
-  </body>
+    <div class="sign-up">
+      <form class="bg-signup" action="loginpage.html" method="post">
+        <ul style="list-style:none">
+          <li><label for="fname">Name</label></li>
+          <li><input type="text" name="fname" placeholder="First name">
+              <input type="text" name="lname" placeholder="Last name"></li>
+          <li><label for="phone">Mobile Phone</label></li>
+          <li><input type="text" name="phno" value="" placeholder="Phone Number"></li>
+          <li><label for="country">Country</label></li>
+          <li><input type="text" name="country" value="" placeholder="Country Name"></li>
+          <li><label for="Email">Email</label></li>
+          <li><input type="text" name="email" value="" placeholder="yourname@gmail.com"></li>
+          <li><input type="button" name="submit" value="Submit"></li>
+        </ul>
+      </form>
+    </div>
+</body>
+
 </html>
