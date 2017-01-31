@@ -1,42 +1,99 @@
-.login-box{
- margin: 12px 0px 0px;
-  padding: 10px 15px 25px 25px;
-  background: none repeat scroll 0% 0% rgb(241, 241, 241);
-  border: 1px solid rgb(229, 229, 229);
-  width:auto;
-  position: absolute;
-  left: 39%;
-  right: 38%;
-  }
-
-  .login-box h1, h2{
-    font-weight: normal;
-  }
-  .login-box ul, li{
-    padding:0px;
-    margin:0px;
-    list-style: none;
-  }
-
-  .login-box div {
-    margin: 0px 0px 1.5em;
-}
-.gmail-backgroud{
-  width:25%;
-  border:0.5%;
-  display: inline-block;
-  padding: 0px 5px;
+/*Form1 Page*/
+.login-box {
+    margin: 12px 0px 0px;
+    padding: 10px 15px 25px 25px;
+    /*background: none repeat scroll 0% 0% rgb(241, 241, 241);*/
+    border: 1px solid rgb(229, 229, 229);
+    width: auto;
+    position: absolute;
+    left: 39%;
+    right: 37%;
  }
-a {
-  text-decoration: none;
+/*Form2 Page*/
+ .sign-up {
+    /*margin: 12px 0px 0px;*/
+    margin: 396px 4px 0px;
+    padding: 35px 19px 32px 20px;
+    background: none repeat scroll 0% 0% rgb(241, 241, 241);
+    border: 1px solid rgb(229, 229, 229);
+    width: auto;
+    position: absolute;
+    /*left: 40%;
+    right: 25%;*/
+    left: 33%;
+    right: 32%;
 }
+/*Button colour*/
+.button{
+  color: #FFFFFF;
+  border: 1px solid #3079ed;
+  background-color: #4d90fe;
+  font-size: 14px;
+  font-weight: 700;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.1);
+  z-index: 1px;
+}
+/*Profile Image*/
+.circle{
+  height: 96px;
+  width: 96px;
+  background-size: 96px;
+  background-image: url('https://ssl.gstatic.com/accounts/ui/avatar_2x.png');
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*canvas profile image*/
+.ciclealign{
+  border-radius: 50%;
+  z-index: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.backgoundclr{
+  background: none repeat scroll 0% 0% rgb(241, 241, 241);
+}
+
+.login-box h1, h2 {
+    font-weight: normal;
+}
+
+.login-box ul, li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+/*.login-box div {
+    margin: 0px 0px 1.5em;
+}*/
+.googlebaner {
+  background-image: url('https://ssl.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_112x36dp.png');
+  background-size: 112px 36px;
+}
+.gmail-backgroud {
+    width: 25%;
+    border: 0.5%;
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .form input {
     margin-right: 0.5em;
 }
+
 .form label {
     float: left;
     margin-right: 0.5em;
 }
-.gmail-background ul>li{
-  padding-top: 10px;
+
+.gmail-background ul>li {
+    padding-top: 10px;
 }
